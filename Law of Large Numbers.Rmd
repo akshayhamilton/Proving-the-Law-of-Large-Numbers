@@ -13,9 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r}
-#We try to observe the proportion of the observed normally distributed random variables which fall between -1 and 1 (inclusive) as the sample reaches infinity.
+#We try to observe the proportion of the observed normally distributed random variables which fall between -1 and 1 as the sample reaches infinity.
 
-#We are trying to prove the Law of large numbers which states that as a sample reaches infinity number of observations the measured value of these observations come close to the expected value E(x) which in our case represents the numbers falling between 1 and -1 (inclusive). Here, the total number of observations between 1 and -1 should come close to 68.2% (0.682) of all observed values as the number of observations 'N' reach infinity.
+#We are trying to prove the Law of large numbers which states that as a sample reaches infinity number of observations the measured value of these observations come close to the expected value E(x) which in our case represents the numbers falling between 1 and -1. Here, the total number of observations between 1 and -1 should come close to 68.2% (0.682) of all observed values as the number of observations 'N' reach infinity.
 
 N<-10000 #Number of observations.
 counter<-0
